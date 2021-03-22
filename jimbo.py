@@ -38,6 +38,7 @@ with open('test.csv', 'a') as csv_file:
     csv_file.write(info_list[-1] + '\n')
 
 print(info_list[-2])
+
 print(info_list[-1])
 
 # genreElem = bSoup.select('#page_content > div.body > div.profile > div:nth-child(3)')
